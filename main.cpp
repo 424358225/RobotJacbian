@@ -12,7 +12,7 @@ int main() {
     // robot.setJoint(joint);
     auto A = robotics::toolbox::calculateJacobian(robot,joint);
     // ¥Ú”°æÿ’ÛA
-    cout << "æÿ’ÛAŒ™£∫" << endl;
+    cout << "æÿ’ÛAŒ™:" << endl;
     cout << A << endl;
 
     auto dj = robotics::toolbox::get_singularValues_Per(A);
